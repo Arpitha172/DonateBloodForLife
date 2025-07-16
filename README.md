@@ -43,8 +43,15 @@ py manage.py createsuperuser
 - Install Python(3.7.6) (Dont Forget to Tick Add to Path while installing Python)
 - Download This Project Zip Folder and Extract it
 - Move to project folder in Terminal. Then run following Commands :
-
+- You need to create the virtual environment to the project and activate it
 ```
+python -m venv venv
+venv\Scripts\activate
+
+
+
+
+
 python -m pip install -r requirements. txt
 ```
 
